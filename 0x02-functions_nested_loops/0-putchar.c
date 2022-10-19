@@ -1,13 +1,21 @@
-#include<stdio.h>
+#include "main.h"
+
 /**
- * main- Program that prints _putchar and a new line
- * main: This is the entry point of the program
+ * main - print the word '_putchar'
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
-	printf("_putchar\n");
-	Return (0);
+	int i;
+	char ch[] = "_putchar";
+
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(ch[i]);
+	}
+	_putchar('\n');
+
+	return (0);
 }
