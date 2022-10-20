@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *
- *
+ *jack_bauer - prints every minute of the day.
+ *jack_bauer: print every minute of the day starting from midnight.
+ *Return: void
  */
-void jak_bauer(void)
+void jack_bauer(void)
 {
 	int d1, d2, d3, d4;
 
