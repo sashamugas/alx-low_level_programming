@@ -10,7 +10,7 @@ void jack_bauer(void)
 
 	for (d1 = 48; d1 <= 50; d1++)
 	{
-		for(d2 = 48; d2 <= 57; d2++)
+		for (d2 = 48; d2 <= 57; d2++)
 		{
 			for (d3 = 48; d3 <= 53; d3++)
 			{
