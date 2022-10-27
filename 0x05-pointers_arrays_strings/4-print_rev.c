@@ -7,6 +7,10 @@
 void print_rev(char *s)
 {
     int l;
+    for (l = 0; s[l] != '\0'; l++)
+    {
+    
+    }
 
     for (l = l - 1; l >= 0; l--)
     {
