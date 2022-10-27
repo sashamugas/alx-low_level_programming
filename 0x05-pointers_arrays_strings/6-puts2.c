@@ -11,7 +11,7 @@ void puts2(char *str)
     char *s = str;
     int b;
 
-    whie (*s != '\0')
+    while (*s != '\0')
     {
         s++;
         len++;
@@ -19,7 +19,7 @@ void puts2(char *str)
 
     a = len - 1;
 
-    for (b = 0; b <= 1; b++)
+    for (b = 0; b <= a; b++)
     {
         if (b % 2 == 0)
         {
